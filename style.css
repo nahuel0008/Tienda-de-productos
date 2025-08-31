@@ -1,14 +1,21 @@
 #head,#footer{
     background-color: #6A994E;
     width: 100%;
-    height: 5%;
+    height: 100%;
 }
 #corp{
     width: 100%;
+<<<<<<< HEAD
     height: 100vh;
     background-color: #FEFAE0;
 
 }
 body{
     margin: 0;
+=======
+    height: 100%;
+}
+body{
+    background-color: #6A994E;
+>>>>>>> 0c2559698da37f336325f083ce68983a9cbacadf
 }
