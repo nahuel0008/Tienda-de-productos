@@ -4,11 +4,11 @@
     height: 7%;
 }
 #body{
+    
     height: 86%;
     width: 100%;
-}
-#footer{
-
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 #corp{
     width: 100%;
@@ -22,4 +22,11 @@
 body{
     margin: 0;
     
+}
+.card{
+    width: 320px;
+    height: 380px;
+    border: black,1px,solid;
+    margin: auto;
+    background-color: #F2E8CF;
 }
