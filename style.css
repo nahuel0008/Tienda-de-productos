@@ -1,27 +1,44 @@
-#head,#footer{
+#head{
+    position: fixed;
+    top: 0px;
+    z-index: 99;
+}
+#footer,#head{
     background-color: #6A994E;
     width: 100%;
     height: 7%;
+}
+#intro{
+    width: 100%;
+    height: 500px;
+    
+}
+#intro #img1{
+    width: 100%;
+    height: 500px;
 }
 #body{
     
     height: 86%;
     width: 100%;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 #corp{
     width: 100%;
     height: 100vh;
-    background-color: #FEFAE0;
+    
     display: flex;
     align-content: space-between;
     flex-wrap: wrap;
+    
 
 }
 body{
     margin: 0;
-    
+    background-color: #FEFAE0;
+    overflow: visible;
+    position: relative;
 }
 .card{
     width: 320px;
@@ -29,4 +46,19 @@ body{
     border: black,1px,solid;
     margin: auto;
     background-color: #F2E8CF;
+}
+.card:hover{
+    width: 420px;
+    height: 480px;
+    align-content: center;
+    .img{
+        width: 370px;
+        height: 290px;
+    }
+}
+.card .img{
+    width: 240px;
+    height: 240px;
+    background-color: aliceblue;
+    margin: 10px auto 0 auto;
 }
